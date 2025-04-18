@@ -400,7 +400,8 @@ local aa = {
 		local t, u, v = e(s.Notification), p.New, protectgui or (syn and syn.protect_gui) or function()
 		end
 		local w = u('ScreenGui', {
-			Parent = j.PlayerGui
+			Parent = j.PlayerGui,
+            Name = "Roblox/Fluent"
 		})
 		v(w)
 		t:Init(w)
